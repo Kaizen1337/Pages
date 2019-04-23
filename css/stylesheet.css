@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'PCB';
+    src: url('/font/PCB.woff2') format('woff2'),
+        url('/font/PCB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo-red {
+	font-family: 'PCB';
+	font-weight: normal;
+	font-style: normal;
+	color: #16a4de;
+}
+.logo-white {
+	font-family: 'PCB';
+	font-weight: normal;
+	font-style: normal;
+	color: #dc3545;
+}
+a{
+	color:white;text-decoration: none;
+}
+a:-webkit-any-link {
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+}
+p a:after {
+	content: " /";
+}
+p a:first-child:before {
+	content: " root@kaizen:/tmp# ";
+}
+p a:last-child:after {
+	content: "";
+}
+.img-thumbnail-white{
+	padding: .25rem;
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 6px;
+	max-width: 100%;
+	height: auto;
+}
