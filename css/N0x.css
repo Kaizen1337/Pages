@@ -1,0 +1,68 @@
+html{ background-size: cover; }
+
+#wrapper{
+
+width: 1200px;
+
+margin: 5px auto;
+
+text-align: left;
+
+
+}
+
+#console{
+
+height: 400px;
+
+overflow: auto;
+
+background-color: transparent;
+
+padding: 5px;
+
+font-family: monospace;
+
+font-size: 12px;
+
+color: white;
+
+}
+
+
+.box{
+
+
+background-color: transparent;
+
+opacity: 0.8;
+
+}
+
+
+.prefix{
+
+color: white;
+
+}
+
+.keyword{
+
+color: #9eff63;
+
+}
+
+.error{
+
+color: #FF0000;
+
+}
+
+.spacer{
+
+clear: both;
+
+display: block;
+
+}
+&copyA23A411496B373917C35CBEF8778ECCAD151B6CB
